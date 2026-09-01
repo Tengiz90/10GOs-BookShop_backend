@@ -3,6 +3,7 @@
 Backend API documentation for the **10GO's Books** project built with .NET 10.
 
 - **Base URL:** `https://tg-books-backend-gyfhgbaye3evbpek.polandcentral-01.azurewebsites.net`
+- **Swagger UI:** [https://tg-books-backend-gyfhgbaye3evbpek.polandcentral-01.azurewebsites.net/swagger](https://tg-books-backend-gyfhgbaye3evbpek.polandcentral-01.azurewebsites.net/swagger)
 - **Authentication:** Upon successful login (`POST /api/users/sign-in`), a JWT Bearer token containing the authenticated account's assigned role (`Customer` or `Admin`) is generated for the session.
 - **Email Verification:** Upon registering a new account (`POST /api/users/register`), a 4-digit verification code is emailed to the user. Note that to confirm the email via `POST /api/users/confirm-email`, the user must be authenticated (an active JWT Bearer token must be included in the request header).
 
